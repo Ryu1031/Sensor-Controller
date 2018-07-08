@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/config_dialog_edit_text_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="@string/endit_text_1"/>
+
+        <EditText
+            android:id="@+id/config_dialog_edit_text_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="@string/endit_text_2"/>
+
+        <EditText
+            android:id="@+id/config_dialog_edit_text_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="@string/endit_text_3"/>
+
+        <EditText
+            android:id="@+id/config_dialog_edit_text_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="@string/endit_text_4"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/config_dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/config_dialog_button"/>
+</LinearLayout>

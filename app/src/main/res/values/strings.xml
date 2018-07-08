@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="scroll_speed">Scroll Speed : </string>
+    <string name="send_text_label_one">Send 1</string>
+    <string name="send_text_label_two">Send 2</string>
+
+    <string name="endit_text_1">192</string>
+    <string name="endit_text_2">168</string>
+    <string name="endit_text_3">2</string>
+    <string name="endit_text_4">100</string>
+    <string name="config_dialog_button">Submit</string>
+
+    <string name="webSocket_uri">%1$s.%2$s.%3$s.%4$s</string>
+
+    <string name="progress_dialog_message">Connecting Server...</string>
+
+    <string name="connection_label_connected">Connected!</string>
+    <string name="connection_label_disconnected">DisConnected</string>
+
+    <string name="send_spinner_label">Web RSS</string>
+    <string name="barchart_spinner_label">Record</string>
+    <string name="config_dialog_title_label">WebSocket Connection Config</string>
+    <string name="config_dialog_message_label">Enter the IP Address.</string>
+    <string name="config_dialog_incorrent_ip_message">Please enter the correct IP.</string>
+
+    <string name="topic_nothing">---</string>
+    <string name="topic_news">News</string>
+    <string name="topic_weather">Weather</string>
+    <string name="topic_humidity">Humidity</string>
+</resources>

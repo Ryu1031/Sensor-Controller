@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="send_spinner_label_list">
+        <item>@string/topic_nothing</item>
+        <item>@string/topic_news</item>
+        <item>@string/topic_weather</item>
+        <item>@string/topic_humidity</item>
+    </string-array>
+</resources>
